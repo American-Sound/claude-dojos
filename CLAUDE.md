@@ -13,6 +13,7 @@ how it's organized.
 
 - `<topic>/sandboxes/` is gitignored scratch work, created on demand
   by the `dojo` skill - never pre-create it, never commit it.
-- `<topic>/notes/` is the committed cheat-sheet output of a session.
+- `<topic>/notes/<username>/` is gitignored, personal cheat-sheet
+  output of a session - never commit it.
 - A new topic always goes through `dojo-creation`, never a manual
   `mkdir` - it keeps the root README's topic list in sync.
